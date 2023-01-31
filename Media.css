@@ -1,0 +1,44 @@
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+     .Fondo_de_Inicio {
+        background-image: url(Assets/Fondo_responsive.webp);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+      }
+      .Sobre_habilidades{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .Titulo_habilidades {
+        width: 100%;;
+      }
+}
+@media (max-width: 575px) {
+    h2{
+        font-size: 25px;
+    }
+    .Texto{
+        font-size: 18px;
+    }
+    .caja{
+        display: grid;
+        grid: auto auto;
+        gap: 200px;
+    }
+    .contenido{
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    height: 300px; 
+    align-content: space-evenly;
+    }
+    #gmail{
+        font-size: 12px;
+    }
+}
+ 

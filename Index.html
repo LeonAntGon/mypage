@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leonardo González | Desarrollo Web</title>
+  <link rel="Stylesheet" href="StyleSheet.css">
+  <link rel="Stylesheet" href="Media.css" media="(max-width: 991px)">
+  <link  rel= "icon" href="Assets/Icono.png" type="image/png"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+  <script src="index.js"></script>
+
+</head>
+<body>
+  <section class="Inicio">
+    <nav class="navbar">
+      <div class="Container">
+            <div class="navbar-links">
+              <ul class="navbar__links">
+              <li class="navbar__link" data-ref="Inicio">
+              <a href="#Inicio">Inicio</a>
+              </li>
+              <li class="navbar__link" data-ref="Sobre_mi">
+              <a href="#Sobre_mi">Sobre mi</a>
+              </li>
+              <li class="navbar__link" data-ref="Contacto">
+               <a href="#Contacto">Contacto</a>
+              </li>
+              </ul>
+            </div>
+      </div>
+    </nav>
+    <div class="Fondo_de_Inicio"></div>
+    <div class="Descripción_de_Inicio">
+        <h1>Leonardo González</h1>
+        <span>Desarrollador frontend</span>
+    </div>
+</section>
+
+  <section>
+    <div class="Container">
+      <h2 class="Titulo_sobre_mi">Sobre mi</h2>
+        <div class="Sobre_grillas">
+            <div class="Sobre-descripción">
+              <p class= "Texto">Soy un residente Argentino de la provincia de Tucuman de 20 años, apasionado 
+                por las nuevas tecnologias y por los diversos idiomas alrededor del mundo. Ahora mismo estoy
+                dando mis primeros pasos en el desarrollo frontend gracias a Ticmas Academy,
+                mediante Argentina programa 4.0.
+              </p>
+            <div class="Sobre_habilidades">
+                <div class="Titulo_habilidades">
+                       <h2>Habilidades</h2>
+                </div>
+                    <div class="Logo">
+                       <img src="Assets/Logo-html.png" alt="Logo de HTML"/>
+                        <div class="nombre_de_habilidad">HTML</div>
+                     </div>
+                    <div class="Logo">
+                        <img src="Assets/Logo-css.png" alt="Logo de Css"/>
+                         <div class="nombre_de_habilidad">CSS</div>
+                     </div>
+                    <div class="Logo">
+                        <img src="Assets/Logo-JavaScript.png" alt="Logo de Javascript"/>
+                         <div class="nombre_de_habilidad">JavaScript</div>
+                    </div>
+                    <div class="Logo">
+                      <img src="Assets/Logo-git.png" alt="Logo de Git"/>
+                        <div class="nombre_de_habilidad">GIT</div>
+                    </div>
+            </div>
+            <div class="caja">
+                <div class="contenido">
+                  <h2 class="Estudios">Estudios</h2>
+                  <li>Educacion primaria y secundaria:</li>
+                  <p>Instituto San Pedro-Tafí Viejo-Prov. de Tucuman</p>
+                  <li>Terciario en inglés-A.T.I.C.A.N.A</li>
+                  <li>Manejo de Word, Excel y Access</li>
+                </div>
+                <div class="contenido">
+                  <h2 class="Idiomas">Idiomas</h2>
+                  <li>Inglés B2</li>
+                  <li>Portugués A2</li>
+              </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section class="Contacto">
+    <div class="Container">
+        <h3 class="Contacto-titulo">Contacto</h3>
+        <div class="Logo-gmail">
+            <img src="Assets/Logo-gmail.png" alt="Logo-de-gmail">
+            <div id="gmail">gonzalezleonardoantonio056@gmail.com</div>
+        </div>     
+    <div>
+    </div>
+  </section>
+  <footer>
+    <div class="Container">
+        <div class="contenedor-agradecimiento">
+            <button type="button" class="botón-agradecimiento" onclick="botón()">
+             <img src="Assets/cup.webp" alt="Taza de café">
+            </button>
+        </div>
+      <p id="indicador">Haz un click en la taza</p>
+      <p id="mensaje"></p>
+    </div>
+  </footer>
+</body>
+</html>

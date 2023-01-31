@@ -1,0 +1,182 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+section {
+    padding: 40px 0;
+    text-align: center;
+    display: block;
+}
+.Container {
+    width: 100%;
+    display: inherit;
+    max-width: 1200px;
+    justify-content: inherit;
+    padding: 0 20px;
+}
+a {
+    text-decoration: none;
+}
+.navbar__link a {
+    color: whitesmoke;
+}
+.navbar {
+    position:absolute;
+    top: 1px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    z-index: 5;
+}
+.navbar__links {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 15px;
+}
+.navbar__link {
+    padding-left: 20px;
+}
+.Inicio {
+        min-height: 100vh;
+        display: flex;
+        padding: 30px;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.8);
+        position: relative;
+}
+.Fondo_de_Inicio {
+    background-color: black;
+    background-image: url(./Assets/Fondo.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+h1 {
+    font-size: 35px;
+    color: gold;
+    text-align: center;
+}
+span {
+    font-size: 22px;
+    color: whitesmoke;
+    text-align: center;
+}
+.Titulo_sobre_mi {
+    font-size: 35px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.Sobre_grillas {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.Sobre-descripción {
+    text-align: left;
+    padding-right: 80px;
+    line-height: 35px;
+    font-size: 20px;
+}
+.Sobre-descripción h2 {
+    margin: 20px 0;
+    font-size: 30px;
+}
+.Sobre_habilidades {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.Titulo_habilidades {
+    font-size: 18px;
+    grid-column: span 4;
+    text-align: left;
+    margin: 20px 0;
+}
+.Logo{
+    padding: 25px;
+    min-width: 130px;
+    height: 180px;
+    font-size: 18px;
+}
+.Logo img {
+    max-height: 100px;
+    max-width: 100px;
+}
+.caja{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.contenido{
+    float: left;
+    width: 80%;
+    padding: 10px;
+    height: 300px; 
+    align-content: space-evenly;
+}
+.row:after {
+    display: table;
+    clear: both;
+}
+.Contacto {
+    width: 100%;
+    background-color: black;
+    padding: 45px;
+}
+.Contacto-titulo {
+    color: whitesmoke;
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+.Logo-imagen {
+    padding: 15px;
+}
+.Logo-gmail img{
+    max-height: 50px;
+    max-width: 50px;
+}
+#gmail {
+    color: whitesmoke;
+    text-align: center;
+}
+footer {
+    width: 100%;
+    background-color: lightgrey;
+    padding: 45px;
+}
+.contenedor-agradecimiento{
+      text-align: center;
+      margin: 0;
+}
+.botón-agradecimiento{
+    background-color: gold;
+}
+.botón-agradecimiento img{
+    max-width: 30px;
+    max-height: 30px;
+}
+#indicador{
+    text-align: center;
+    font-style: italic;
+}
+#mensaje{
+    text-align: center;
+    font-size: 18px;
+    font-family:'Roboto', sans-serif;
+    font-style: oblique;
+}
+
+
+
+
